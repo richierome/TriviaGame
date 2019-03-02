@@ -1,13 +1,13 @@
 var questions = [{
-         "question": "What Year Did Taxi Drive Come Out?",
+         "question": "What year did Taxi Drive come out?",
          "option1":"1981",
          "option2":"1984",
          "option3":"1976",
          "option4": "1966",
          "answer": "3"
-    //first question is not loading
+    
 }, {
-        "question": "What is  Taxi Driver name?",
+        "question": "What is Taxi Driver name?",
         "option1": "MR.Cooper",
         "option2": "Travis Bickle",
         "option3": "Christopher Moltisanti",
@@ -50,7 +50,7 @@ var questions = [{
         "option1": "Taxi Driver",
         "option2": "Saturday Night Fever",
         "option3": "Rocky",
-        "option4": "Pornos",
+        "option4": "Porno",
         "answer": "4"
 },{
         "question": "When can he work?",
@@ -67,7 +67,7 @@ var questions = [{
             "option4": "Slick Back",
             "answer": "3"
 },{
-            "question": "Whats is favorite candy?",
+            "question": "Whats is he's favorite candy?",
             "option1": "Jujubess",
             "option2": "Chocolate",
             "option3": "Jolly Ranchers",

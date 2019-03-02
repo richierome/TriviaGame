@@ -51,6 +51,8 @@ function loadNextQuestion () {
     resultCont.textContent = 'Your Score: ' + score;
     return;
 
+// score count would not respone//
+
 }
 loadQuestion(currentQuestion);
 
