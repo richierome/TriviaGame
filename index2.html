@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css">
+    
+</head>
+<body>
+    <p id="timer">___</p>
+
+    <div id="quizContainer" class="container">
+        <div class="title"> TAXI DRIVER QUIZ</div>
+        <div id="question" class="question"></div>
+        <lable class="option"><input type="radio" name="option" value="1"/> <span id="opt1"></span></lable>
+        <lable class="option"><input type="radio" name="option" value="2"/> <span id="opt2"></span></lable>
+        <lable class="option"><input type="radio" name="option" value="3"/> <span id="opt3"></span></lable>
+        <lable class="option"><input type="radio" name="option" value="4"/> <span id="opt4"></span></lable>
+        <button id="nextButton" class="next-btn" onClick="loadNextQuestion();">Next Question</button>
+    </div>
+
+    <div id="result" class="container result" style="display:none;">
+    </div>
+    
+    <script src="assets/javascript/question.js"></script> 
+     <script src="assets/javascript/app.js"></script> 
+    
+</body >
+
+</html>

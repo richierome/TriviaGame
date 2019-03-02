@@ -1,0 +1,105 @@
+body{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('../images/taxi6.jpg');
+    background-repeat: repeat-x;
+    background-size: 515px;
+   
+}
+
+
+.container{
+    height: 460px;
+    width: 1000px;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    transform: translateX(-50%) translateY(-50);
+    background-image:url('../images/taxi7.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px 3px black;
+
+}
+
+
+.title{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: rgb(255, 217, 4);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.question{
+    padding: 20px;
+    font-size: 22px;
+    background: rgb(240, 119, 119);
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.question:hover{
+    color:black;
+    opacity: 1.0;
+    background: red;
+}
+
+
+.option{
+
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    margin: 10px 0 10px 10px;
+    color: #000000;
+    border-radius: 20px;
+    background-color: grey;
+    opacity: 0.5;
+    
+}
+
+.option:hover{
+    background: red;
+    color:black;
+    opacity: 1.0;
+}
+
+.next-btn{
+    border: none;
+    outline: none; 
+    background: grey;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px; 
+    opacity: 0.7;
+  
+}
+
+.next-btn:hover{
+    clear: both;
+    background: red;
+    color:black;
+}
+
+.result{
+    height: 100px;
+    text-align:center;
+    font-size: 75px;
+}
+
+.option input:checked.option{
+    background:green;
+    color: #000000;
+
+}
